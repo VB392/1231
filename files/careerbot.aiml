@@ -1,4 +1,40 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<aiml version="2.0">
-	<!-- insert your AIML categories here -->
+<aiml version="1.0.1">
+
+  <!-- Basic Greeting -->
+  <category>
+    <pattern>HELLO</pattern>
+    <template>Hello! I am your career advisor bot. What are your strengths and interests in computer science?</template>
+  </category>
+
+  <!-- Job Recommendation: Software Developer -->
+  <category>
+    <pattern>I LIKE CODING</pattern>
+    <template>Great! You might enjoy a career as a Software Developer. This role focuses on writing and optimizing code for applications.</template>
+  </category>
+
+  <!-- Job Recommendation: Data Scientist -->
+  <category>
+    <pattern>I LIKE DATA</pattern>
+    <template>Data Science could be a great fit for you! Data Scientists analyze and interpret complex data to help businesses make decisions.</template>
+  </category>
+
+  <!-- Job Recommendation: Cybersecurity Analyst -->
+  <category>
+    <pattern>I LIKE SECURITY</pattern>
+    <template>You should consider Cybersecurity! Cybersecurity Analysts work to protect systems from cyber threats.</template>
+  </category>
+
+  <!-- Job Recommendation: AI Engineer -->
+  <category>
+    <pattern>I LIKE AI</pattern>
+    <template>Awesome! You may be interested in becoming an AI Engineer. This role involves developing machine learning models and intelligent systems.</template>
+  </category>
+
+  <!-- Job Recommendation: IT Support Specialist -->
+  <category>
+    <pattern>I LIKE HELPING PEOPLE</pattern>
+    <template>You might be a great IT Support Specialist! This role involves assisting people with technical issues and troubleshooting systems.</template>
+  </category>
+
 </aiml>
